@@ -1,0 +1,412 @@
+fileFormatVersion: 2
+guid: 53d82cb50ab5aea49938915486bd7c5c
+timeCreated: 1510081901
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: carpaint
+    100004: ChamferBo0
+    100006: ChamferBox
+    100008: chrome
+    100010: dashboard
+    100012: doors
+    100014: glass on l
+    100016: glossy bla
+    100018: Group01
+    100020: Group02
+    100022: Group03
+    100024: Group04
+    100026: lex logos0
+    100028: mirrors01
+    100030: objCylind0
+    100032: objCylind1
+    100034: objCylind2
+    100036: objCylind3
+    100038: objCylind4
+    100040: objCylind5
+    100042: objCylind6
+    100044: objCylinde
+    100046: Object01
+    100048: Object02
+    100050: Object020
+    100052: Object03
+    100054: Object10
+    100056: Object11
+    100058: Object12
+    100060: Object13
+    100062: objObject0
+    100064: objObject1
+    100066: objObject2
+    100068: objObject7
+    100070: objPlane01
+    100072: objPlane34
+    100074: objPlane44
+    100076: objPlane45
+    100078: objPlane46
+    100080: objplastic
+    100082: objTube01
+    100084: objTube19
+    100086: objTube20
+    100088: objTube21
+    100090: orange ind
+    100092: red chrome
+    100094: side trims
+    100096: sideindica
+    100098: steering w
+    100100: tailighhts
+    100102: Text01
+    100104: Text02
+    100106: tire
+    100108: tire01
+    100110: tire01_MeshPart0
+    100112: tire01_MeshPart1
+    100114: tire02
+    100116: tire02_MeshPart0
+    100118: tire02_MeshPart1
+    100120: tire03
+    100122: tire03_MeshPart0
+    100124: tire03_MeshPart1
+    100126: tire_MeshPart0
+    100128: tire_MeshPart1
+    100130: windows
+    100132: xenons
+    400000: //RootNode
+    400002: carpaint
+    400004: ChamferBo0
+    400006: ChamferBox
+    400008: chrome
+    400010: dashboard
+    400012: doors
+    400014: glass on l
+    400016: glossy bla
+    400018: Group01
+    400020: Group02
+    400022: Group03
+    400024: Group04
+    400026: lex logos0
+    400028: mirrors01
+    400030: objCylind0
+    400032: objCylind1
+    400034: objCylind2
+    400036: objCylind3
+    400038: objCylind4
+    400040: objCylind5
+    400042: objCylind6
+    400044: objCylinde
+    400046: Object01
+    400048: Object02
+    400050: Object020
+    400052: Object03
+    400054: Object10
+    400056: Object11
+    400058: Object12
+    400060: Object13
+    400062: objObject0
+    400064: objObject1
+    400066: objObject2
+    400068: objObject7
+    400070: objPlane01
+    400072: objPlane34
+    400074: objPlane44
+    400076: objPlane45
+    400078: objPlane46
+    400080: objplastic
+    400082: objTube01
+    400084: objTube19
+    400086: objTube20
+    400088: objTube21
+    400090: orange ind
+    400092: red chrome
+    400094: side trims
+    400096: sideindica
+    400098: steering w
+    400100: tailighhts
+    400102: Text01
+    400104: Text02
+    400106: tire
+    400108: tire01
+    400110: tire01_MeshPart0
+    400112: tire01_MeshPart1
+    400114: tire02
+    400116: tire02_MeshPart0
+    400118: tire02_MeshPart1
+    400120: tire03
+    400122: tire03_MeshPart0
+    400124: tire03_MeshPart1
+    400126: tire_MeshPart0
+    400128: tire_MeshPart1
+    400130: windows
+    400132: xenons
+    2100000: license plate
+    2100002: doors
+    2100004: chrome dark
+    2100006: glossy black
+    2100008: dashboard
+    2100010: chrome
+    2100012: chrome orange
+    2100014: side indicators
+    2100016: lexus logo
+    2100018: 'Material #2411'
+    2100020: windows
+    2100022: red
+    2100024: rims
+    2100026: brake disks
+    2100028: tires
+    2100030: carpaint
+    2100032: glass on lamps
+    2100034: chrome red
+    2100036: red glass
+    2300000: carpaint
+    2300002: ChamferBo0
+    2300004: ChamferBox
+    2300006: chrome
+    2300008: dashboard
+    2300010: doors
+    2300012: glass on l
+    2300014: glossy bla
+    2300016: lex logos0
+    2300018: mirrors01
+    2300020: objCylind0
+    2300022: objCylind1
+    2300024: objCylind2
+    2300026: objCylind3
+    2300028: objCylind4
+    2300030: objCylind5
+    2300032: objCylind6
+    2300034: objCylinde
+    2300036: Object01
+    2300038: Object02
+    2300040: Object020
+    2300042: Object03
+    2300044: Object10
+    2300046: Object11
+    2300048: Object12
+    2300050: Object13
+    2300052: objObject0
+    2300054: objObject1
+    2300056: objObject2
+    2300058: objObject7
+    2300060: objPlane01
+    2300062: objPlane34
+    2300064: objPlane44
+    2300066: objPlane45
+    2300068: objPlane46
+    2300070: objplastic
+    2300072: objTube01
+    2300074: objTube19
+    2300076: objTube20
+    2300078: objTube21
+    2300080: orange ind
+    2300082: red chrome
+    2300084: side trims
+    2300086: sideindica
+    2300088: steering w
+    2300090: tailighhts
+    2300092: Text01
+    2300094: Text02
+    2300096: tire01_MeshPart0
+    2300098: tire01_MeshPart1
+    2300100: tire02_MeshPart0
+    2300102: tire02_MeshPart1
+    2300104: tire03_MeshPart0
+    2300106: tire03_MeshPart1
+    2300108: tire_MeshPart0
+    2300110: tire_MeshPart1
+    2300112: windows
+    2300114: xenons
+    3300000: carpaint
+    3300002: ChamferBo0
+    3300004: ChamferBox
+    3300006: chrome
+    3300008: dashboard
+    3300010: doors
+    3300012: glass on l
+    3300014: glossy bla
+    3300016: lex logos0
+    3300018: mirrors01
+    3300020: objCylind0
+    3300022: objCylind1
+    3300024: objCylind2
+    3300026: objCylind3
+    3300028: objCylind4
+    3300030: objCylind5
+    3300032: objCylind6
+    3300034: objCylinde
+    3300036: Object01
+    3300038: Object02
+    3300040: Object020
+    3300042: Object03
+    3300044: Object10
+    3300046: Object11
+    3300048: Object12
+    3300050: Object13
+    3300052: objObject0
+    3300054: objObject1
+    3300056: objObject2
+    3300058: objObject7
+    3300060: objPlane01
+    3300062: objPlane34
+    3300064: objPlane44
+    3300066: objPlane45
+    3300068: objPlane46
+    3300070: objplastic
+    3300072: objTube01
+    3300074: objTube19
+    3300076: objTube20
+    3300078: objTube21
+    3300080: orange ind
+    3300082: red chrome
+    3300084: side trims
+    3300086: sideindica
+    3300088: steering w
+    3300090: tailighhts
+    3300092: Text01
+    3300094: Text02
+    3300096: tire01_MeshPart0
+    3300098: tire01_MeshPart1
+    3300100: tire02_MeshPart0
+    3300102: tire02_MeshPart1
+    3300104: tire03_MeshPart0
+    3300106: tire03_MeshPart1
+    3300108: tire_MeshPart0
+    3300110: tire_MeshPart1
+    3300112: windows
+    3300114: xenons
+    4300000: ChamferBox
+    4300002: ChamferBo0
+    4300004: doors
+    4300006: xenons
+    4300008: objplastic
+    4300010: dashboard
+    4300012: mirrors01
+    4300014: side trims
+    4300016: objPlane34
+    4300018: orange ind
+    4300020: sideindica
+    4300022: lex logos0
+    4300024: steering w
+    4300026: glossy bla
+    4300028: windows
+    4300030: objPlane44
+    4300032: objTube19
+    4300034: objCylinde
+    4300036: Object11
+    4300038: objObject7
+    4300040: tire01_MeshPart0
+    4300042: tire01_MeshPart1
+    4300044: objCylind0
+    4300046: Text01
+    4300048: Text02
+    4300050: Object01
+    4300052: Object03
+    4300054: objPlane01
+    4300056: objTube01
+    4300058: objCylind1
+    4300060: Object02
+    4300062: objObject2
+    4300064: tire_MeshPart0
+    4300066: tire_MeshPart1
+    4300068: objCylind2
+    4300070: objCylind3
+    4300072: objPlane46
+    4300074: objTube21
+    4300076: Object13
+    4300078: objObject0
+    4300080: tire03_MeshPart0
+    4300082: tire03_MeshPart1
+    4300084: objCylind4
+    4300086: objCylind5
+    4300088: objPlane45
+    4300090: objTube20
+    4300092: Object12
+    4300094: objObject1
+    4300096: tire02_MeshPart0
+    4300098: tire02_MeshPart1
+    4300100: objCylind6
+    4300102: carpaint
+    4300104: glass on l
+    4300106: chrome
+    4300108: red chrome
+    4300110: tailighhts
+    4300112: Object10
+    4300114: Object020
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.03
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: lexus_models_bundle
+  assetBundleVariant: gs

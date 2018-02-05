@@ -1,0 +1,930 @@
+fileFormatVersion: 2
+guid: 89e331966bd6c00458001d64404b6822
+timeCreated: 1510078616
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: _3500_001
+    100002: _3500_002
+    100004: AY_001
+    100006: AY_002
+    100008: Backup Light_001
+    100010: Backup Light_002
+    100012: bodyshell_001
+    100014: bonnet_ok_001
+    100016: boot_ok_001
+    100018: Brake Lights 2_001
+    100020: Brake Lights 2_002
+    100022: Brake Lights_001
+    100024: Brake Lights_003
+    100026: bump_fro01_001
+    100028: bump_rea01_001
+    100030: Bumper Vent Grills_001
+    100032: Bumper Vent Grills_002
+    100034: Ceiling Accessories_001
+    100036: Ceiling Accessories_002
+    100038: chassis_001
+    100040: D#1_001
+    100042: D#1_002
+    100044: D#3_001
+    100046: D#3_002
+    100048: door_lf_ok_001
+    100050: door_lf_ok_002
+    100052: door_lr_ok_001
+    100054: door_lr_ok_002
+    100056: F Sport Badge_001
+    100058: F Sport Badge_003
+    100060: Front Collision Sensors_001
+    100062: Front Collision Sensors_002
+    100064: Front Fender_001
+    100066: Front Fender_002
+    100068: Front Window_001
+    100070: Front Window_002
+    100072: glass01_001
+    100074: glass01_002
+    100076: glass_lf_o#1_001
+    100078: glass_lf_o#1_002
+    100080: Grills_001
+    100082: Grills_002
+    100084: Group_001
+    100086: Group_002
+    100088: Group_003
+    100090: Group_004
+    100092: Group_005
+    100094: Group_006
+    100096: Group_007
+    100098: Group_008
+    100100: Headlight Assembly_001
+    100102: Headlight Assembly_002
+    100104: Headlight Glass_001
+    100106: Headlight Glass_002
+    100108: Intercooler Grills_001
+    100110: Intercooler Grills_002
+    100112: interior_001
+    100114: led_001
+    100116: //RootNode
+    100118: Muffler_001
+    100120: Muffler_002
+    100122: Paddle Shifter_001
+    100124: Paddle Shifter_002
+    100126: Plate 048_001
+    100128: Plate 048_002
+    100130: Plate Holder_001
+    100132: Projector Cover_001
+    100134: Projector Cover_002
+    100136: Rear Collision Sensors_001
+    100138: Rear Collision Sensors_002
+    100140: Rear Headrest_001
+    100142: Rear Headrest_002
+    100144: Rear Window_001
+    100146: Rear Window_002
+    100148: Rear Windshield_001
+    100150: Running Board_001
+    100152: Running Board_002
+    100154: seat_001
+    100156: seat_002
+    100158: Side Pillars_001
+    100160: Side Pillars_002
+    100162: Sun Roof_001
+    100164: Sun Visor_001
+    100166: Sun Visor_002
+    100168: Tail Lights_001
+    100170: Tail Lights_002
+    100172: Taillight Glass_003
+    100174: Taillight Glass_004
+    100176: Trunk Tail Lights_001
+    100178: Trunk Tail Lights_002
+    100180: Wheel Nuts_001
+    100182: Wheel Nuts_002
+    100184: Wheel Nuts_003
+    100186: Wheel Nuts_004
+    100188: Wheel Nuts_005
+    100190: Wheel Nuts_006
+    100192: Wheel Nuts_007
+    100194: Wheel Nuts_008
+    100196: Wheel Nuts_009
+    100198: Wheel Nuts_010
+    100200: Wheel Nuts_011
+    100202: Wheel Nuts_012
+    100204: Wheel Nuts_013
+    100206: Wheel Nuts_014
+    100208: Wheel Nuts_015
+    100210: Wheel Nuts_016
+    100212: Wheel Nuts_017
+    100214: Wheel Nuts_018
+    100216: Wheel Nuts_019
+    100218: Wheel Nuts_020
+    100220: wheel_001
+    100222: wheel_002
+    100224: wheel_003
+    100226: wheel_004
+    100228: windscre01_001
+    400000: _3500_001
+    400002: _3500_002
+    400004: AY_001
+    400006: AY_002
+    400008: Backup Light_001
+    400010: Backup Light_002
+    400012: bodyshell_001
+    400014: bonnet_ok_001
+    400016: boot_ok_001
+    400018: Brake Lights 2_001
+    400020: Brake Lights 2_002
+    400022: Brake Lights_001
+    400024: Brake Lights_003
+    400026: bump_fro01_001
+    400028: bump_rea01_001
+    400030: Bumper Vent Grills_001
+    400032: Bumper Vent Grills_002
+    400034: Ceiling Accessories_001
+    400036: Ceiling Accessories_002
+    400038: chassis_001
+    400040: D#1_001
+    400042: D#1_002
+    400044: D#3_001
+    400046: D#3_002
+    400048: door_lf_ok_001
+    400050: door_lf_ok_002
+    400052: door_lr_ok_001
+    400054: door_lr_ok_002
+    400056: F Sport Badge_001
+    400058: F Sport Badge_003
+    400060: Front Collision Sensors_001
+    400062: Front Collision Sensors_002
+    400064: Front Fender_001
+    400066: Front Fender_002
+    400068: Front Window_001
+    400070: Front Window_002
+    400072: glass01_001
+    400074: glass01_002
+    400076: glass_lf_o#1_001
+    400078: glass_lf_o#1_002
+    400080: Grills_001
+    400082: Grills_002
+    400084: Group_001
+    400086: Group_002
+    400088: Group_003
+    400090: Group_004
+    400092: Group_005
+    400094: Group_006
+    400096: Group_007
+    400098: Group_008
+    400100: Headlight Assembly_001
+    400102: Headlight Assembly_002
+    400104: Headlight Glass_001
+    400106: Headlight Glass_002
+    400108: Intercooler Grills_001
+    400110: Intercooler Grills_002
+    400112: interior_001
+    400114: led_001
+    400116: //RootNode
+    400118: Muffler_001
+    400120: Muffler_002
+    400122: Paddle Shifter_001
+    400124: Paddle Shifter_002
+    400126: Plate 048_001
+    400128: Plate 048_002
+    400130: Plate Holder_001
+    400132: Projector Cover_001
+    400134: Projector Cover_002
+    400136: Rear Collision Sensors_001
+    400138: Rear Collision Sensors_002
+    400140: Rear Headrest_001
+    400142: Rear Headrest_002
+    400144: Rear Window_001
+    400146: Rear Window_002
+    400148: Rear Windshield_001
+    400150: Running Board_001
+    400152: Running Board_002
+    400154: seat_001
+    400156: seat_002
+    400158: Side Pillars_001
+    400160: Side Pillars_002
+    400162: Sun Roof_001
+    400164: Sun Visor_001
+    400166: Sun Visor_002
+    400168: Tail Lights_001
+    400170: Tail Lights_002
+    400172: Taillight Glass_003
+    400174: Taillight Glass_004
+    400176: Trunk Tail Lights_001
+    400178: Trunk Tail Lights_002
+    400180: Wheel Nuts_001
+    400182: Wheel Nuts_002
+    400184: Wheel Nuts_003
+    400186: Wheel Nuts_004
+    400188: Wheel Nuts_005
+    400190: Wheel Nuts_006
+    400192: Wheel Nuts_007
+    400194: Wheel Nuts_008
+    400196: Wheel Nuts_009
+    400198: Wheel Nuts_010
+    400200: Wheel Nuts_011
+    400202: Wheel Nuts_012
+    400204: Wheel Nuts_013
+    400206: Wheel Nuts_014
+    400208: Wheel Nuts_015
+    400210: Wheel Nuts_016
+    400212: Wheel Nuts_017
+    400214: Wheel Nuts_018
+    400216: Wheel Nuts_019
+    400218: Wheel Nuts_020
+    400220: wheel_001
+    400222: wheel_002
+    400224: wheel_003
+    400226: wheel_004
+    400228: windscre01_001
+    2100000: No Name
+    2100002: dbl_F Sport Badge_001
+    2100004: dbl_chassis_001
+    2100006: dbl_wheel_001
+    2100008: dbl_chassis_001_ncl1_1
+    2100010: dbl_chassis_007
+    2100012: dbl_interior_003
+    2100014: dbl_chassis_007_ncl1_1
+    2100016: dbl_chassis_001_ncl1_2
+    2100018: dbl_chassis_007_ncl1_2
+    2100020: dbl_interior_003_ncl1_1
+    2100022: dbl_chassis_007_ncl1_3
+    2100024: dbl_F Sport Badge_001_ncl1_1
+    2100026: dbl_chassis_001_ncl1_3
+    2100028: dbl_wheel_001_ncl1_1
+    2100030: dbl_chassis_001_ncl1_4
+    2100032: dbl_chassis_007_ncl1_4
+    2100034: dbl_interior_003_ncl1_2
+    2100036: dbl_chassis_007_ncl1_5
+    2100038: dbl_chassis_001_ncl1_5
+    2100040: dbl_chassis_007_ncl1_6
+    2100042: dbl_interior_003_ncl1_3
+    2100044: dbl_chassis_007_ncl1_7
+    2100046: dbl_F Sport Badge_001_ncl1_2
+    2100048: dbl_chassis_001_ncl1_6
+    2100050: dbl_wheel_001_ncl1_2
+    2100052: dbl_chassis_003_ncl1_3
+    2100054: dbl_Plate 048_001
+    2100056: dbl_Plate 048_002
+    2100058: dbl_Plate 048_003
+    2100060: dbl_Plate 048_004
+    2100062: dbl_chassis_003_ncl1_7
+    2100064: dbl_Plate 048_001_ncl1_1
+    2100066: dbl_Plate 048_002_ncl1_1
+    2100068: dbl_Plate 048_003_ncl1_1
+    2100070: dbl_Plate 048_004_ncl1_1
+    2100072: dbl_Headlight Assembly_003
+    2100074: dbl_chassis_001_ncl1_7
+    2100076: dbl_chassis_008
+    2100078: dbl_Tail Lights_001
+    2100080: dbl_interior_001
+    2100082: dbl_interior_010
+    2100084: dbl_interior_011
+    2100086: dbl_Side Pillars_001
+    2100088: dbl_chassis_001_ncl1_8
+    2100090: dbl_bonnet_ok_001
+    2100092: dbl_door_lr_ok_001
+    2100094: dbl_Side Pillars_001_ncl1_1
+    2100096: dbl_door_lr_ok_002
+    2100098: dbl_door_lr_ok_003
+    2100100: dbl_door_lr_ok_004
+    2100102: dbl_door_lr_ok_005
+    2100104: dbl_door_lr_ok_006
+    2100106: dbl_door_lr_ok_007
+    2100108: dbl_door_lr_ok_008
+    2100110: dbl_Headlight Assembly_002
+    2100112: dbl_chassis_001_ncl1_9
+    2100114: dbl_door_lr_ok_009
+    2100116: dbl_door_lr_ok_010
+    2100118: dbl_door_lr_ok_011_ncl1_1
+    2100120: dbl_door_lr_ok_012
+    2100122: dbl_door_lr_ok_013
+    2100124: dbl_chassis_007_ncl1_8
+    2100126: dbl_door_lr_ok_014
+    2100128: dbl_door_lr_ok_015
+    2100130: dbl_Side Pillars_001_ncl1_2
+    2100132: dbl_door_lf_ok_001
+    2100134: dbl_chassis_007_ncl1_9
+    2100136: dbl_chassis_001_ncl1_10
+    2100138: dbl_Headlight Assembly_002_ncl1_1
+    2100140: dbl_chassis_008_ncl1_1
+    2100142: dbl_Headlight Assembly_001_ncl1_15
+    2100144: dbl_Headlight Assembly_004
+    2100146: dbl_chassis_005
+    2100148: dbl_Headlight Assembly_003_ncl1_1
+    2100150: dbl_door_lf_ok_002
+    2100152: dbl_chassis_006
+    2100154: dbl_door_lf_ok_003
+    2100156: dbl_interior_010_ncl1_1
+    2100158: dbl_interior_011_ncl1_1
+    2100160: dbl_door_lf_ok_004
+    2100162: dbl_interior_001_ncl1_1
+    2100164: dbl_interior_007
+    2100166: dbl_door_lf_ok_005
+    2100168: dbl_interior_003_ncl1_4
+    2100170: dbl_door_lf_ok_006
+    2100172: dbl_F Sport Badge_001_ncl1_3
+    2100174: dbl_chassis_001_ncl1_11
+    2100176: dbl_wheel_001_ncl1_3
+    2100178: dbl_Headlight Assembly_001_ncl1_21
+    2100180: dbl_F Sport Badge_002
+    2100182: dbl_Tail Lights_001_ncl1_1
+    2100184: dbl_Headlight Assembly_001_ncl1_22
+    2100186: dbl_chassis_007_ncl1_10
+    2100188: dbl_Headlight Assembly_005_ncl1_1
+    2100190: dbl_Headlight Assembly_001_ncl1_23
+    2100192: dbl_F Sport Badge_002_ncl1_1
+    2100194: dbl_Tail Lights_001_ncl1_2
+    2100196: dbl_Headlight Assembly_001_ncl1_24
+    2100198: dbl_chassis_007_ncl1_11
+    2100200: dbl_Headlight Assembly_005_ncl1_2
+    2100202: dbl_chassis_001_ncl1_12
+    2100204: dbl_Side Pillars_001_ncl1_3
+    2100206: dbl_door_lf_ok_001_ncl1_1
+    2100208: dbl_F Sport Badge_002_ncl1_2
+    2100210: dbl_Headlight Assembly_001_ncl1_25
+    2100212: dbl_Headlight Assembly_003_ncl1_2
+    2100214: dbl_Side Pillars_001_ncl1_4
+    2100216: dbl_door_lf_ok_001_ncl1_2
+    2100218: dbl_chassis_007_ncl1_12
+    2100220: dbl_chassis_001_ncl1_13
+    2100222: dbl_Headlight Assembly_002_ncl1_2
+    2100224: dbl_chassis_008_ncl1_2
+    2100226: dbl_Headlight Assembly_001_ncl1_26
+    2100228: dbl_Headlight Assembly_004_ncl1_1
+    2100230: dbl_chassis_005_ncl1_1
+    2100232: dbl_Headlight Assembly_003_ncl1_3
+    2100234: dbl_door_lf_ok_002_ncl1_1
+    2100236: dbl_chassis_006_ncl1_1
+    2100238: dbl_door_lf_ok_003_ncl1_1
+    2100240: dbl_interior_010_ncl1_2
+    2100242: dbl_interior_011_ncl1_2
+    2100244: dbl_door_lf_ok_004_ncl1_1
+    2100246: dbl_interior_001_ncl1_2
+    2100248: dbl_interior_007_ncl1_1
+    2100250: dbl_door_lf_ok_005_ncl1_1
+    2100252: dbl_interior_003_ncl1_5
+    2100254: dbl_door_lf_ok_006_ncl1_1
+    2100256: dbl_door_lr_ok_001_ncl1_1
+    2100258: dbl_Side Pillars_001_ncl1_5
+    2100260: dbl_door_lr_ok_002_ncl1_1
+    2100262: dbl_door_lr_ok_003_ncl1_1
+    2100264: dbl_door_lr_ok_004_ncl1_1
+    2100266: dbl_door_lr_ok_005_ncl1_1
+    2100268: dbl_door_lr_ok_006_ncl1_1
+    2100270: dbl_door_lr_ok_007_ncl1_1
+    2100272: dbl_door_lr_ok_008_ncl1_1
+    2100274: dbl_Headlight Assembly_002_ncl1_3
+    2100276: dbl_chassis_001_ncl1_14
+    2100278: dbl_door_lr_ok_009_ncl1_1
+    2100280: dbl_door_lr_ok_010_ncl1_1
+    2100282: dbl_door_lr_ok_011_ncl1_2
+    2100284: dbl_door_lr_ok_012_ncl1_1
+    2100286: dbl_door_lr_ok_013_ncl1_1
+    2100288: dbl_chassis_007_ncl1_13
+    2100290: dbl_door_lr_ok_014_ncl1_1
+    2100292: dbl_door_lr_ok_015_ncl1_1
+    2100294: dbl_chassis_001_ncl1_15
+    2100296: dbl_Side Pillars_001_ncl1_8
+    2100298: dbl_Tail Lights_001_ncl1_3
+    2100300: dbl_Headlight Assembly_001_ncl1_27
+    2100302: dbl_chassis_003_ncl1_8
+    2100304: dbl_chassis_001_ncl1_16
+    2100306: dbl_Headlight Assembly_002_ncl1_10
+    2100308: dbl_chassis_008_ncl1_3
+    2100310: dbl_Muffler_001
+    2100312: dbl_Side Pillars_001_ncl1_11
+    2100314: dbl_Headlight Assembly_001_ncl1_28
+    2100316: dbl_interior_014
+    2100318: dbl_bump_fro01_001
+    2100320: dbl_Headlight Assembly_003_ncl1_4
+    2100322: dbl_chassis_001_ncl1_17
+    2100324: dbl_chassis_008_ncl1_4
+    2100326: dbl_Tail Lights_001_ncl1_4
+    2100328: dbl_interior_001_ncl1_3
+    2100330: dbl_interior_010_ncl1_3
+    2100332: dbl_interior_011_ncl1_3
+    2100334: dbl_interior_001_ncl1_4
+    2100336: dbl_chassis_007_ncl1_14
+    2100338: dbl_chassis_001_ncl1_18
+    2100340: dbl_interior_001_ncl1_5
+    2100342: dbl_chassis_007_ncl1_15
+    2100344: dbl_chassis_001_ncl1_19
+    2100346: dbl_chassis_001_ncl1_20
+    2100348: dbl_interior_001_ncl1_6
+    2100350: dbl_chassis_001_ncl1_21
+    2100352: dbl_interior_001_ncl1_7
+    2100354: dbl_chassis_007_ncl1_16
+    2100356: dbl_interior_001_ncl1_8
+    2100358: dbl_chassis_007_ncl1_17
+    2100360: dbl_interior_001_ncl1_9
+    2100362: dbl_chassis_001_ncl1_22
+    2100364: dbl_interior_010_ncl1_4
+    2100366: dbl_interior_011_ncl1_4
+    2100368: dbl_Headlight Assembly_003_ncl1_5
+    2100370: dbl_chassis_001_ncl1_23
+    2100372: dbl_interior_010_ncl1_5
+    2100374: dbl_interior_011_ncl1_5
+    2100376: dbl_Headlight Assembly_003_ncl1_6
+    2100378: dbl_chassis_002
+    2100380: dbl_chassis_008_ncl1_5
+    2100382: dbl_interior_001_ncl1_10
+    2100384: dbl_Headlight Assembly_003_ncl1_7
+    2100386: dbl_Headlight Assembly_002_ncl1_11
+    2100388: dbl_interior_002
+    2100390: dbl_interior_003_ncl1_6
+    2100392: dbl_chassis_004
+    2100394: dbl_chassis_007_ncl1_18
+    2100396: dbl_F Sport Badge_002_ncl1_3
+    2100398: dbl_chassis_001_ncl1_24
+    2100400: dbl_Headlight Assembly_001_ncl1_29
+    2100402: dbl_interior_004
+    2100404: dbl_Tail Lights_001_ncl1_5
+    2100406: dbl_interior_005
+    2100408: dbl_interior_006
+    2100410: dbl_interior_007_ncl1_2
+    2100412: dbl_chassis_003_ncl1_9
+    2100414: dbl_interior_008
+    2100416: dbl_interior_009
+    2100418: dbl_interior_010_ncl1_6
+    2100420: dbl_interior_011_ncl1_6
+    2100422: dbl_interior_012
+    2100424: dbl_interior_013
+    2100426: dbl_interior_014_ncl1_1
+    2100428: dbl_F Sport Badge_001_ncl1_4
+    2100430: dbl_F Sport Badge_002_ncl1_4
+    2100432: dbl_Side Pillars_001_ncl1_17
+    2100434: dbl_Side Pillars_002
+    2100436: dbl_chassis_001_ncl1_25
+    2100438: dbl_Side Pillars_001_ncl1_18
+    2100440: dbl_Side Pillars_002_ncl1_1
+    2100442: dbl_chassis_001_ncl1_26
+    2100444: dbl_F Sport Badge_001_ncl1_5
+    2100446: dbl_F Sport Badge_002_ncl1_5
+    2100448: dbl_chassis_001_ncl1_27
+    2100450: dbl_Headlight Assembly_001_ncl1_30
+    2100452: dbl_chassis_002_ncl1_1
+    2100454: dbl_Headlight Assembly_002_ncl1_12
+    2100456: dbl_chassis_004_ncl1_1
+    2100458: dbl_Headlight Assembly_003_ncl1_8
+    2100460: dbl_Headlight Assembly_004_ncl1_2
+    2100462: dbl_Headlight Assembly_005_ncl1_5
+    2100464: dbl_chassis_006_ncl1_2
+    2100466: dbl_chassis_005_ncl1_2
+    2100468: dbl_chassis_001_ncl1_28
+    2100470: dbl_Muffler_001_ncl1_1
+    2100472: dbl_chassis_001_ncl1_29
+    2100474: dbl_Muffler_001_ncl1_2
+    2100476: dbl_Brake Lights 2_001
+    2100478: dbl_chassis_006_ncl1_3
+    2100480: dbl_Brake Lights 2_002
+    2100482: dbl_Brake Lights 2_003
+    2100484: dbl_Tail Lights_001_ncl1_6
+    2100486: dbl_Headlight Assembly_004_ncl1_3
+    2100488: dbl_chassis_006_ncl1_4
+    2100490: dbl_Tail Lights_002_ncl1_2
+    2100492: dbl_Brake Lights 2_001_ncl1_1
+    2100494: dbl_chassis_006_ncl1_5
+    2100496: dbl_Brake Lights 2_002_ncl1_1
+    2100498: dbl_Brake Lights 2_003_ncl1_1
+    2100500: dbl_Tail Lights_001_ncl1_7
+    2100502: dbl_Headlight Assembly_004_ncl1_4
+    2100504: dbl_chassis_006_ncl1_6
+    2100506: dbl_Tail Lights_002_ncl1_3
+    2100508: dbl_chassis_001_ncl1_30
+    2100510: dbl_Headlight Assembly_001_ncl1_31
+    2100512: dbl_chassis_002_ncl1_2
+    2100514: dbl_Headlight Assembly_002_ncl1_13
+    2100516: dbl_chassis_004_ncl1_2
+    2100518: dbl_Headlight Assembly_003_ncl1_9
+    2100520: dbl_Headlight Assembly_004_ncl1_5
+    2100522: dbl_Headlight Assembly_005_ncl1_6
+    2100524: dbl_chassis_006_ncl1_7
+    2100526: dbl_chassis_005_ncl1_3
+    2100528: dbl_chassis_001_ncl1_31
+    2100530: dbl_chassis_002_ncl1_3
+    2100532: dbl_chassis_003_ncl1_10
+    2100534: dbl_chassis_004_ncl1_3
+    2100536: dbl_chassis_005_ncl1_4
+    2100538: dbl_chassis_006_ncl1_8
+    2100540: dbl_chassis_007_ncl1_19
+    2100542: dbl_chassis_008_ncl1_6
+    2300000: _3500_001
+    2300002: _3500_002
+    2300004: AY_001
+    2300006: AY_002
+    2300008: Backup Light_001
+    2300010: Backup Light_002
+    2300012: bodyshell_001
+    2300014: bonnet_ok_001
+    2300016: boot_ok_001
+    2300018: Brake Lights 2_001
+    2300020: Brake Lights 2_002
+    2300022: Brake Lights_001
+    2300024: Brake Lights_003
+    2300026: bump_fro01_001
+    2300028: bump_rea01_001
+    2300030: Bumper Vent Grills_001
+    2300032: Bumper Vent Grills_002
+    2300034: Ceiling Accessories_001
+    2300036: Ceiling Accessories_002
+    2300038: chassis_001
+    2300040: D#1_001
+    2300042: D#1_002
+    2300044: D#3_001
+    2300046: D#3_002
+    2300048: door_lf_ok_001
+    2300050: door_lf_ok_002
+    2300052: door_lr_ok_001
+    2300054: door_lr_ok_002
+    2300056: F Sport Badge_001
+    2300058: F Sport Badge_003
+    2300060: Front Collision Sensors_001
+    2300062: Front Collision Sensors_002
+    2300064: Front Fender_001
+    2300066: Front Fender_002
+    2300068: Front Window_001
+    2300070: Front Window_002
+    2300072: glass01_001
+    2300074: glass01_002
+    2300076: glass_lf_o#1_001
+    2300078: glass_lf_o#1_002
+    2300080: Grills_001
+    2300082: Grills_002
+    2300084: Group_001
+    2300086: Group_002
+    2300088: Group_003
+    2300090: Group_004
+    2300092: Group_005
+    2300094: Group_006
+    2300096: Group_007
+    2300098: Group_008
+    2300100: Headlight Assembly_001
+    2300102: Headlight Assembly_002
+    2300104: Headlight Glass_001
+    2300106: Headlight Glass_002
+    2300108: Intercooler Grills_001
+    2300110: Intercooler Grills_002
+    2300112: interior_001
+    2300114: led_001
+    2300116: Muffler_001
+    2300118: Muffler_002
+    2300120: Paddle Shifter_001
+    2300122: Paddle Shifter_002
+    2300124: Plate 048_001
+    2300126: Plate 048_002
+    2300128: Plate Holder_001
+    2300130: Projector Cover_001
+    2300132: Projector Cover_002
+    2300134: Rear Collision Sensors_001
+    2300136: Rear Collision Sensors_002
+    2300138: Rear Headrest_001
+    2300140: Rear Headrest_002
+    2300142: Rear Window_001
+    2300144: Rear Window_002
+    2300146: Rear Windshield_001
+    2300148: Running Board_001
+    2300150: Running Board_002
+    2300152: seat_001
+    2300154: seat_002
+    2300156: Side Pillars_001
+    2300158: Side Pillars_002
+    2300160: Sun Roof_001
+    2300162: Sun Visor_001
+    2300164: Sun Visor_002
+    2300166: Tail Lights_001
+    2300168: Tail Lights_002
+    2300170: Taillight Glass_003
+    2300172: Taillight Glass_004
+    2300174: Trunk Tail Lights_001
+    2300176: Trunk Tail Lights_002
+    2300178: Wheel Nuts_001
+    2300180: Wheel Nuts_002
+    2300182: Wheel Nuts_003
+    2300184: Wheel Nuts_004
+    2300186: Wheel Nuts_005
+    2300188: Wheel Nuts_006
+    2300190: Wheel Nuts_007
+    2300192: Wheel Nuts_008
+    2300194: Wheel Nuts_009
+    2300196: Wheel Nuts_010
+    2300198: Wheel Nuts_011
+    2300200: Wheel Nuts_012
+    2300202: Wheel Nuts_013
+    2300204: Wheel Nuts_014
+    2300206: Wheel Nuts_015
+    2300208: Wheel Nuts_016
+    2300210: Wheel Nuts_017
+    2300212: Wheel Nuts_018
+    2300214: Wheel Nuts_019
+    2300216: Wheel Nuts_020
+    2300218: wheel_001
+    2300220: wheel_002
+    2300222: wheel_003
+    2300224: wheel_004
+    2300226: windscre01_001
+    3300000: _3500_001
+    3300002: _3500_002
+    3300004: AY_001
+    3300006: AY_002
+    3300008: Backup Light_001
+    3300010: Backup Light_002
+    3300012: bodyshell_001
+    3300014: bonnet_ok_001
+    3300016: boot_ok_001
+    3300018: Brake Lights 2_001
+    3300020: Brake Lights 2_002
+    3300022: Brake Lights_001
+    3300024: Brake Lights_003
+    3300026: bump_fro01_001
+    3300028: bump_rea01_001
+    3300030: Bumper Vent Grills_001
+    3300032: Bumper Vent Grills_002
+    3300034: Ceiling Accessories_001
+    3300036: Ceiling Accessories_002
+    3300038: chassis_001
+    3300040: D#1_001
+    3300042: D#1_002
+    3300044: D#3_001
+    3300046: D#3_002
+    3300048: door_lf_ok_001
+    3300050: door_lf_ok_002
+    3300052: door_lr_ok_001
+    3300054: door_lr_ok_002
+    3300056: F Sport Badge_001
+    3300058: F Sport Badge_003
+    3300060: Front Collision Sensors_001
+    3300062: Front Collision Sensors_002
+    3300064: Front Fender_001
+    3300066: Front Fender_002
+    3300068: Front Window_001
+    3300070: Front Window_002
+    3300072: glass01_001
+    3300074: glass01_002
+    3300076: glass_lf_o#1_001
+    3300078: glass_lf_o#1_002
+    3300080: Grills_001
+    3300082: Grills_002
+    3300084: Group_001
+    3300086: Group_002
+    3300088: Group_003
+    3300090: Group_004
+    3300092: Group_005
+    3300094: Group_006
+    3300096: Group_007
+    3300098: Group_008
+    3300100: Headlight Assembly_001
+    3300102: Headlight Assembly_002
+    3300104: Headlight Glass_001
+    3300106: Headlight Glass_002
+    3300108: Intercooler Grills_001
+    3300110: Intercooler Grills_002
+    3300112: interior_001
+    3300114: led_001
+    3300116: Muffler_001
+    3300118: Muffler_002
+    3300120: Paddle Shifter_001
+    3300122: Paddle Shifter_002
+    3300124: Plate 048_001
+    3300126: Plate 048_002
+    3300128: Plate Holder_001
+    3300130: Projector Cover_001
+    3300132: Projector Cover_002
+    3300134: Rear Collision Sensors_001
+    3300136: Rear Collision Sensors_002
+    3300138: Rear Headrest_001
+    3300140: Rear Headrest_002
+    3300142: Rear Window_001
+    3300144: Rear Window_002
+    3300146: Rear Windshield_001
+    3300148: Running Board_001
+    3300150: Running Board_002
+    3300152: seat_001
+    3300154: seat_002
+    3300156: Side Pillars_001
+    3300158: Side Pillars_002
+    3300160: Sun Roof_001
+    3300162: Sun Visor_001
+    3300164: Sun Visor_002
+    3300166: Tail Lights_001
+    3300168: Tail Lights_002
+    3300170: Taillight Glass_003
+    3300172: Taillight Glass_004
+    3300174: Trunk Tail Lights_001
+    3300176: Trunk Tail Lights_002
+    3300178: Wheel Nuts_001
+    3300180: Wheel Nuts_002
+    3300182: Wheel Nuts_003
+    3300184: Wheel Nuts_004
+    3300186: Wheel Nuts_005
+    3300188: Wheel Nuts_006
+    3300190: Wheel Nuts_007
+    3300192: Wheel Nuts_008
+    3300194: Wheel Nuts_009
+    3300196: Wheel Nuts_010
+    3300198: Wheel Nuts_011
+    3300200: Wheel Nuts_012
+    3300202: Wheel Nuts_013
+    3300204: Wheel Nuts_014
+    3300206: Wheel Nuts_015
+    3300208: Wheel Nuts_016
+    3300210: Wheel Nuts_017
+    3300212: Wheel Nuts_018
+    3300214: Wheel Nuts_019
+    3300216: Wheel Nuts_020
+    3300218: wheel_001
+    3300220: wheel_002
+    3300222: wheel_003
+    3300224: wheel_004
+    3300226: windscre01_001
+    4300000: Wheel Nuts_020
+    4300002: Wheel Nuts_019
+    4300004: Wheel Nuts_018
+    4300006: Wheel Nuts_017
+    4300008: Wheel Nuts_016
+    4300010: wheel_004
+    4300012: Group_008
+    4300014: Group_007
+    4300016: Group_006
+    4300018: Group_005
+    4300020: Wheel Nuts_015
+    4300022: Wheel Nuts_014
+    4300024: Wheel Nuts_013
+    4300026: Wheel Nuts_012
+    4300028: Wheel Nuts_011
+    4300030: wheel_003
+    4300032: Group_004
+    4300034: Group_003
+    4300036: Group_002
+    4300038: Group_001
+    4300040: Taillight Glass_004
+    4300042: Headlight Glass_002
+    4300044: Rear Windshield_001
+    4300046: Sun Roof_001
+    4300048: Taillight Glass_003
+    4300050: Headlight Glass_001
+    4300052: Wheel Nuts_010
+    4300054: Wheel Nuts_009
+    4300056: Wheel Nuts_008
+    4300058: Wheel Nuts_007
+    4300060: Wheel Nuts_006
+    4300062: wheel_002
+    4300064: glass01_002
+    4300066: _3500_002
+    4300068: AY_002
+    4300070: D#3_002
+    4300072: D#1_002
+    4300074: Plate 048_002
+    4300076: _3500_001
+    4300078: AY_001
+    4300080: D#3_001
+    4300082: D#1_001
+    4300084: Plate 048_001
+    4300086: Plate Holder_001
+    4300088: seat_002
+    4300090: glass_lf_o#1_002
+    4300092: bonnet_ok_001
+    4300094: Rear Window_002
+    4300096: door_lr_ok_002
+    4300098: Front Window_002
+    4300100: door_lf_ok_002
+    4300102: Wheel Nuts_005
+    4300104: Wheel Nuts_004
+    4300106: Wheel Nuts_003
+    4300108: Wheel Nuts_002
+    4300110: Wheel Nuts_001
+    4300112: wheel_001
+    4300114: Backup Light_002
+    4300116: Brake Lights_003
+    4300118: Trunk Tail Lights_002
+    4300120: Backup Light_001
+    4300122: Brake Lights_001
+    4300124: Trunk Tail Lights_001
+    4300126: boot_ok_001
+    4300128: glass01_001
+    4300130: glass_lf_o#1_001
+    4300132: Front Window_001
+    4300134: door_lf_ok_001
+    4300136: Rear Window_001
+    4300138: door_lr_ok_001
+    4300140: windscre01_001
+    4300142: Rear Collision Sensors_002
+    4300144: Rear Collision Sensors_001
+    4300146: bump_rea01_001
+    4300148: Front Collision Sensors_002
+    4300150: Front Collision Sensors_001
+    4300152: Grills_002
+    4300154: Grills_001
+    4300156: Intercooler Grills_002
+    4300158: Intercooler Grills_001
+    4300160: Bumper Vent Grills_002
+    4300162: Bumper Vent Grills_001
+    4300164: bump_fro01_001
+    4300166: led_001
+    4300168: seat_001
+    4300170: Ceiling Accessories_002
+    4300172: Ceiling Accessories_001
+    4300174: Sun Visor_002
+    4300176: Sun Visor_001
+    4300178: Paddle Shifter_002
+    4300180: Paddle Shifter_001
+    4300182: Rear Headrest_002
+    4300184: Rear Headrest_001
+    4300186: interior_001
+    4300188: Running Board_002
+    4300190: Front Fender_002
+    4300192: Running Board_001
+    4300194: Front Fender_001
+    4300196: bodyshell_001
+    4300198: F Sport Badge_003
+    4300200: Side Pillars_002
+    4300202: Side Pillars_001
+    4300204: F Sport Badge_001
+    4300206: Projector Cover_002
+    4300208: Headlight Assembly_002
+    4300210: Muffler_002
+    4300212: Muffler_001
+    4300214: Brake Lights 2_002
+    4300216: Tail Lights_002
+    4300218: Brake Lights 2_001
+    4300220: Tail Lights_001
+    4300222: Projector Cover_001
+    4300224: Headlight Assembly_001
+    4300226: chassis_001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.03
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: lexus_models_bundle
+  assetBundleVariant: gs

@@ -1,0 +1,396 @@
+fileFormatVersion: 2
+guid: ce3c0ef5b7142a1459cb53a3d4880a8e
+timeCreated: 1516911955
+licenseType: Free
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: Back mirro
+    100002: BMW_X3.5_0
+    100004: BMW_X3.5_1
+    100006: BMW_X3.5_2
+    100008: BMW_X3.5_l
+    100010: BMW_X3_Fe0
+    100012: BMW_X3_Fe1
+    100014: BMW_X3_Fe2
+    100016: BMW_X3_Fel
+    100018: BMW_X3_RA0
+    100020: BMW_X3_RA1
+    100022: BMW_X3_RA2
+    100024: BMW_X3_RAD
+    100026: bremse
+    100028: bremse01
+    100030: bremse02
+    100032: bremse03
+    100034: //RootNode
+    100036: Dash_board
+    100038: Entity39
+    100040: Entity40
+    100042: Entity41
+    100044: front numb
+    100046: Grill_defa
+    100048: Grill_dow0
+    100050: Grill_down
+    100052: Group01
+    100054: Group02
+    100056: Group03
+    100058: Group04
+    100060: Harrier
+    100062: HLight
+    100064: HSDI
+    100066: Hybrid
+    100068: L_door
+    100070: L_door.R_d
+    100072: L_door02
+    100074: L_door02.R
+    100076: L_mirror00
+    100078: L_mirror02
+    100080: line
+    100082: logo_e_fou
+    100084: Muffler
+    100086: Object01
+    100088: Object03
+    100090: Oil Cover
+    100092: power
+    100094: radio
+    100096: rear numbe
+    100098: sidelight
+    100100: Skirt_fron
+    100102: Skirt_rear
+    100104: Skirt_sid0
+    100106: Skirt_side
+    100108: small_mirr
+    100110: Spoiler_r0
+    100112: Spray
+    100114: top
+    100116: toyota
+    100118: Wiper back
+    100120: Wiper01
+    100122: Wiper02
+    400000: Back mirro
+    400002: BMW_X3.5_0
+    400004: BMW_X3.5_1
+    400006: BMW_X3.5_2
+    400008: BMW_X3.5_l
+    400010: BMW_X3_Fe0
+    400012: BMW_X3_Fe1
+    400014: BMW_X3_Fe2
+    400016: BMW_X3_Fel
+    400018: BMW_X3_RA0
+    400020: BMW_X3_RA1
+    400022: BMW_X3_RA2
+    400024: BMW_X3_RAD
+    400026: bremse
+    400028: bremse01
+    400030: bremse02
+    400032: bremse03
+    400034: //RootNode
+    400036: Dash_board
+    400038: Entity39
+    400040: Entity40
+    400042: Entity41
+    400044: front numb
+    400046: Grill_defa
+    400048: Grill_dow0
+    400050: Grill_down
+    400052: Group01
+    400054: Group02
+    400056: Group03
+    400058: Group04
+    400060: Harrier
+    400062: HLight
+    400064: HSDI
+    400066: Hybrid
+    400068: L_door
+    400070: L_door.R_d
+    400072: L_door02
+    400074: L_door02.R
+    400076: L_mirror00
+    400078: L_mirror02
+    400080: line
+    400082: logo_e_fou
+    400084: Muffler
+    400086: Object01
+    400088: Object03
+    400090: Oil Cover
+    400092: power
+    400094: radio
+    400096: rear numbe
+    400098: sidelight
+    400100: Skirt_fron
+    400102: Skirt_rear
+    400104: Skirt_sid0
+    400106: Skirt_side
+    400108: small_mirr
+    400110: Spoiler_r0
+    400112: Spray
+    400114: top
+    400116: toyota
+    400118: Wiper back
+    400120: Wiper01
+    400122: Wiper02
+    2100000: 3CarPaintRed
+    2100002: 'Material #413'
+    2100004: 'Material #48'
+    2100006: 'Material #50'
+    2100008: 'Material #147'
+    2100010: CAr_gLAss
+    2100012: AluminiumPolishe
+    2100014: 'Material #52'
+    2100016: 'Material #51'
+    2100018: 'Material #55'
+    2100020: 'Material #163'
+    2100022: 'Material #169'
+    2100024: 'Material #165'
+    2100026: 'Material #167'
+    2100028: AluminiumPoli1
+    2100030: 'Material #56'
+    2100032: AluminiumPoli2
+    2100034: 3CarPaintRed1
+    2100036: CAr_MirrOr
+    2100038: 'Material #168'
+    2100040: 'Material #162'
+    2100042: 'Material #164'
+    2100044: 'Material #418'
+    2100046: 'Material #170'
+    2100048: CAr_MirrOr1
+    2100050: metal
+    2100052: x3-tire
+    2100054: x3-tire-rel
+    2100056: x3-logo
+    2100058: 4CarPaintBlack
+    2100060: x3-wheel-discs
+    2100062: x3-wheel-inside
+    2300000: Back mirro
+    2300002: BMW_X3.5_0
+    2300004: BMW_X3.5_1
+    2300006: BMW_X3.5_2
+    2300008: BMW_X3.5_l
+    2300010: BMW_X3_Fe0
+    2300012: BMW_X3_Fe1
+    2300014: BMW_X3_Fe2
+    2300016: BMW_X3_Fel
+    2300018: BMW_X3_RA0
+    2300020: BMW_X3_RA1
+    2300022: BMW_X3_RA2
+    2300024: BMW_X3_RAD
+    2300026: bremse
+    2300028: bremse01
+    2300030: bremse02
+    2300032: bremse03
+    2300034: Dash_board
+    2300036: Entity39
+    2300038: Entity40
+    2300040: Entity41
+    2300042: front numb
+    2300044: Grill_defa
+    2300046: Grill_dow0
+    2300048: Grill_down
+    2300050: Harrier
+    2300052: HLight
+    2300054: HSDI
+    2300056: Hybrid
+    2300058: L_door
+    2300060: L_door.R_d
+    2300062: L_door02
+    2300064: L_door02.R
+    2300066: L_mirror00
+    2300068: L_mirror02
+    2300070: line
+    2300072: logo_e_fou
+    2300074: Muffler
+    2300076: Object01
+    2300078: Object03
+    2300080: Oil Cover
+    2300082: power
+    2300084: radio
+    2300086: rear numbe
+    2300088: sidelight
+    2300090: Skirt_fron
+    2300092: Skirt_rear
+    2300094: Skirt_sid0
+    2300096: Skirt_side
+    2300098: small_mirr
+    2300100: Spoiler_r0
+    2300102: Spray
+    2300104: top
+    2300106: toyota
+    2300108: Wiper back
+    2300110: Wiper01
+    2300112: Wiper02
+    3300000: Back mirro
+    3300002: BMW_X3.5_0
+    3300004: BMW_X3.5_1
+    3300006: BMW_X3.5_2
+    3300008: BMW_X3.5_l
+    3300010: BMW_X3_Fe0
+    3300012: BMW_X3_Fe1
+    3300014: BMW_X3_Fe2
+    3300016: BMW_X3_Fel
+    3300018: BMW_X3_RA0
+    3300020: BMW_X3_RA1
+    3300022: BMW_X3_RA2
+    3300024: BMW_X3_RAD
+    3300026: bremse
+    3300028: bremse01
+    3300030: bremse02
+    3300032: bremse03
+    3300034: Dash_board
+    3300036: Entity39
+    3300038: Entity40
+    3300040: Entity41
+    3300042: front numb
+    3300044: Grill_defa
+    3300046: Grill_dow0
+    3300048: Grill_down
+    3300050: Harrier
+    3300052: HLight
+    3300054: HSDI
+    3300056: Hybrid
+    3300058: L_door
+    3300060: L_door.R_d
+    3300062: L_door02
+    3300064: L_door02.R
+    3300066: L_mirror00
+    3300068: L_mirror02
+    3300070: line
+    3300072: logo_e_fou
+    3300074: Muffler
+    3300076: Object01
+    3300078: Object03
+    3300080: Oil Cover
+    3300082: power
+    3300084: radio
+    3300086: rear numbe
+    3300088: sidelight
+    3300090: Skirt_fron
+    3300092: Skirt_rear
+    3300094: Skirt_sid0
+    3300096: Skirt_side
+    3300098: small_mirr
+    3300100: Spoiler_r0
+    3300102: Spray
+    3300104: top
+    3300106: toyota
+    3300108: Wiper back
+    3300110: Wiper01
+    3300112: Wiper02
+    4300000: Object01
+    4300002: Object03
+    4300004: top
+    4300006: Skirt_rear
+    4300008: Wiper01
+    4300010: Muffler
+    4300012: Wiper02
+    4300014: Dash_board
+    4300016: front numb
+    4300018: Skirt_fron
+    4300020: Harrier
+    4300022: L_door
+    4300024: L_mirror02
+    4300026: L_door02
+    4300028: line
+    4300030: Oil Cover
+    4300032: power
+    4300034: L_door02
+    4300036: radio
+    4300038: Wiper back
+    4300040: rear numbe
+    4300042: sidelight
+    4300044: Skirt_side
+    4300046: small_mirr
+    4300048: Spray
+    4300050: Back mirro
+    4300052: toyota
+    4300054: Grill_down
+    4300056: Grill_defa
+    4300058: Hybrid
+    4300060: HSDI
+    4300062: Spoiler_r0
+    4300064: logo_e_fou
+    4300066: Entity39
+    4300068: Entity40
+    4300070: Entity41
+    4300072: HLight
+    4300074: BMW_X3_RAD
+    4300076: BMW_X3.5_l
+    4300078: BMW_X3_Fel
+    4300080: bremse
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.003
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 0
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
