@@ -101,8 +101,8 @@ public class GestureRecognition : MonoBehaviour {
 	public void ManageGestureIndex() {
 		if (gestureIndex) {
 			//return true;
-		} else if (transform.FindChild("GestureIndex")) {
-			gestureIndex = transform.FindChild("GestureIndex").gameObject;
+		} else if (transform.Find("GestureIndex")) {
+			gestureIndex = transform.Find("GestureIndex").gameObject;
 			//return true;
 		} else if (GetComponent<MaestroArm>()) {
 			if (GetComponent<MaestroArm>().playerPalm) {
@@ -132,7 +132,7 @@ public class GestureRecognition : MonoBehaviour {
 		if (gesture != null) {
 			ManageGestureIndex();
 
-			if (gestureIndex.transform.FindChild("\"" + assetName + "\"")) {
+			if (gestureIndex.transform.Find("\"" + assetName + "\"")) {
 				Debug.LogError("GestureRecognition: The specified gesture \"" + assetName + "\" already exists in the gesture index.");
 				return;
 			} else {

@@ -106,6 +106,10 @@ namespace CAVS.Scenes.Showcase
             }
         }
 
+		public void OnKeyPress(string keyName)
+		{
+		}
+
         /// <summary>
         /// Called whenever the Database has car information for us
         /// </summary>
@@ -201,7 +205,7 @@ namespace CAVS.Scenes.Showcase
             // Display Car
             currentCarGameObject = Instantiate<GameObject>(
                 LoadCarModelReference(carToDisplay, qualityToRender), 
-                Vector3.up, 
+				Vector3.zero, 
                 Quaternion.identity
             );
 
@@ -236,18 +240,26 @@ namespace CAVS.Scenes.Showcase
         /// <returns>A reference of a car to be instantiated</returns>
         private GameObject LoadCarModelReference(Car car, CarQuality quality)
         {
-            switch(quality)
-            {
-                case CarQuality.Lowest:
-                    return Resources.Load<GameObject>("Low Quality Car");
-                case CarQuality.Medium:
-                    return Resources.Load<GameObject>("Low Medium Car");
-                case CarQuality.Highest:
-                    return Resources.Load<GameObject>("Low Highest Car");
-                default:
-                    return Resources.Load<GameObject>("Low Highest Car");
-            }
+			string quality1 = "highdef";  //TODO:  change how this is set later
 
+			string Directory = string.Format("{0} {1}", car.getMake(), car.getModel());
+			string Filename = string.Format("{0} {1} {2}", Directory, car.getTrim(), quality1);
+			string Path = string.Format("{0}/{1}", Directory, Filename);
+
+			GameObject CarModel = Resources.Load<GameObject>(Path);
+
+			if (CarModel == null) {
+				Debug.Log ("Load failed");
+			}
+
+			if(CarModel != null)
+			{
+				return CarModel;
+			}
+			else
+			{
+				return Resources.Load<GameObject>("Low Quality Car");
+			}
         }
 
     }

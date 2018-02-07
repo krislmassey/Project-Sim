@@ -190,7 +190,7 @@ public class GazeRay : MonoBehaviour {
 			currentAngle = 0;
 			angleBetweenPoints = 360 / vertexCount;
 
-			lineRenderer.numPositions = (vertexCount + 1);
+			lineRenderer.positionCount = (vertexCount + 1);
 
 			ResetLinePoints ();
 
