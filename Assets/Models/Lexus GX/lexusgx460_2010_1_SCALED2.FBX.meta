@@ -1,0 +1,511 @@
+fileFormatVersion: 2
+guid: 20d49abf0f915384d883ba27f49f08b8
+timeCreated: 1518641516
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: "_\xE5\xE7\xE8\xED\xE001"
+    100002: "_\xEE\xF0\xEE\xE3\xE801"
+    100004: a_04
+    100006: a_05
+    100008: black02
+    100010: black_01
+    100012: black_999_01
+    100014: black_sp01
+    100016: black_spec01
+    100018: black_tran01
+    100020: bonnet01
+    100022: bonnet_dum01
+    100024: boomper01
+    100026: boot01
+    100028: boot_dummy01
+    100030: chassis01
+    100032: chassis_du01
+    100034: Chrom_moto01
+    100036: chrome01
+    100038: dno01
+    100040: door_lf01
+    100042: door_lf_du01
+    100044: door_lr01
+    100046: door_lr_du01
+    100048: door_rf01
+    100050: door_rf_du01
+    100052: door_rr01
+    100054: door_rr_du01
+    100056: dvorleft01
+    100058: dvornik_du01
+    100060: dvorright01
+    100062: FARA_F01
+    100064: fara_F01
+    100066: fara_J_F01
+    100068: fara_J_R01
+    100070: fara_R01
+    100072: fara_R02
+    100074: glass01
+    100076: glass02
+    100078: glass03
+    100080: glass_boot01
+    100082: glass_F_M_01
+    100084: glass_fara01
+    100086: gx01
+    100088: hub_lf01
+    100090: hub_lr01
+    100092: hub_rf01
+    100094: hub_rr01
+    100096: huntley.df01
+    100098: indicato01
+    100100: indicato02
+    100102: indicato03
+    100104: indicato04
+    100106: indicator_01
+    100108: interer01
+    100110: Lexus_GX01
+    100112: //RootNode
+    100114: ligits_pet01
+    100116: ligits_rte01
+    100118: ligits_spe01
+    100120: ligits_tah01
+    100122: metal_moto01
+    100124: motor01
+    100126: null - boot01
+    100128: null - chassis01
+    100130: null - Collision01
+    100132: null - door_lf01
+    100134: null - door_rf01
+    100136: null - indicato01
+    100138: null - indicator_01
+    100140: null - petrolok01
+    100142: null - rtemperatu01
+    100144: null - speedook01
+    100146: null - steering_o01
+    100148: null - tahook01
+    100150: petrolok01
+    100152: plasstic01
+    100154: plasstic_f01
+    100156: Plasstic_s01
+    100158: plastic01
+    100160: revers01
+    100162: rtemperatu01
+    100164: salon01
+    100166: saruc01
+    100168: saruc_01
+    100170: speedo_dum01
+    100172: speedook01
+    100174: steering_d01
+    100176: steering_o01
+    100178: steering_s01
+    100180: stop01
+    100182: stop_boot01
+    100184: tahook01
+    100186: wheel02
+    100188: wheel03
+    100190: wheel04
+    100192: wheel05
+    100194: wheel_rf_d01
+    400000: "_\xE5\xE7\xE8\xED\xE001"
+    400002: "_\xEE\xF0\xEE\xE3\xE801"
+    400004: a_04
+    400006: a_05
+    400008: black02
+    400010: black_01
+    400012: black_999_01
+    400014: black_sp01
+    400016: black_spec01
+    400018: black_tran01
+    400020: bonnet01
+    400022: bonnet_dum01
+    400024: boomper01
+    400026: boot01
+    400028: boot_dummy01
+    400030: chassis01
+    400032: chassis_du01
+    400034: Chrom_moto01
+    400036: chrome01
+    400038: dno01
+    400040: door_lf01
+    400042: door_lf_du01
+    400044: door_lr01
+    400046: door_lr_du01
+    400048: door_rf01
+    400050: door_rf_du01
+    400052: door_rr01
+    400054: door_rr_du01
+    400056: dvorleft01
+    400058: dvornik_du01
+    400060: dvorright01
+    400062: FARA_F01
+    400064: fara_F01
+    400066: fara_J_F01
+    400068: fara_J_R01
+    400070: fara_R01
+    400072: fara_R02
+    400074: glass01
+    400076: glass02
+    400078: glass03
+    400080: glass_boot01
+    400082: glass_F_M_01
+    400084: glass_fara01
+    400086: gx01
+    400088: hub_lf01
+    400090: hub_lr01
+    400092: hub_rf01
+    400094: hub_rr01
+    400096: huntley.df01
+    400098: indicato01
+    400100: indicato02
+    400102: indicato03
+    400104: indicato04
+    400106: indicator_01
+    400108: interer01
+    400110: Lexus_GX01
+    400112: //RootNode
+    400114: ligits_pet01
+    400116: ligits_rte01
+    400118: ligits_spe01
+    400120: ligits_tah01
+    400122: metal_moto01
+    400124: motor01
+    400126: null - boot01
+    400128: null - chassis01
+    400130: null - Collision01
+    400132: null - door_lf01
+    400134: null - door_rf01
+    400136: null - indicato01
+    400138: null - indicator_01
+    400140: null - petrolok01
+    400142: null - rtemperatu01
+    400144: null - speedook01
+    400146: null - steering_o01
+    400148: null - tahook01
+    400150: petrolok01
+    400152: plasstic01
+    400154: plasstic_f01
+    400156: Plasstic_s01
+    400158: plastic01
+    400160: revers01
+    400162: rtemperatu01
+    400164: salon01
+    400166: saruc01
+    400168: saruc_01
+    400170: speedo_dum01
+    400172: speedook01
+    400174: steering_d01
+    400176: steering_o01
+    400178: steering_s01
+    400180: stop01
+    400182: stop_boot01
+    400184: tahook01
+    400186: wheel02
+    400188: wheel03
+    400190: wheel04
+    400192: wheel05
+    400194: wheel_rf_d01
+    2100000: Paint
+    2100002: Chrome
+    2100004: salon
+    2100006: wooden
+    2100008: glass
+    2100010: HL_Glass
+    2100012: vehiclelights [01
+    2100014: matte_ f01
+    2100016: a_200
+    2100018: black01
+    2100020: a_100
+    2100022: a_02
+    2100024: plastic
+    2100026: matte_ ff01
+    2100028: 'Material #75'
+    2100030: inter_2
+    2100032: salon_a_
+    2100034: a_01
+    2100036: a_03
+    2100038: 'Material #106'
+    2100040: red
+    2100042: matte_ ff03
+    2100044: 'Material #147'
+    2100046: matte_ ff0f0f0f01
+    2100048: matte_ ff06
+    2300000: "_\xE5\xE7\xE8\xED\xE001"
+    2300002: "_\xEE\xF0\xEE\xE3\xE801"
+    2300004: a_04
+    2300006: a_05
+    2300008: black02
+    2300010: black_01
+    2300012: black_999_01
+    2300014: black_sp01
+    2300016: black_spec01
+    2300018: black_tran01
+    2300020: bonnet01
+    2300022: boomper01
+    2300024: boot01
+    2300026: chassis01
+    2300028: Chrom_moto01
+    2300030: chrome01
+    2300032: dno01
+    2300034: door_lf01
+    2300036: door_lr01
+    2300038: door_rf01
+    2300040: door_rr01
+    2300042: dvorleft01
+    2300044: dvorright01
+    2300046: fara_F01
+    2300048: fara_J_F01
+    2300050: fara_J_R01
+    2300052: fara_R02
+    2300054: glass01
+    2300056: glass02
+    2300058: glass03
+    2300060: glass_boot01
+    2300062: glass_F_M_01
+    2300064: glass_fara01
+    2300066: hub_lf01
+    2300068: hub_lr01
+    2300070: hub_rf01
+    2300072: hub_rr01
+    2300074: indicato01
+    2300076: indicato02
+    2300078: indicato03
+    2300080: indicato04
+    2300082: indicator_01
+    2300084: interer01
+    2300086: ligits_pet01
+    2300088: ligits_rte01
+    2300090: ligits_spe01
+    2300092: ligits_tah01
+    2300094: metal_moto01
+    2300096: petrolok01
+    2300098: plasstic01
+    2300100: plasstic_f01
+    2300102: Plasstic_s01
+    2300104: plastic01
+    2300106: revers01
+    2300108: rtemperatu01
+    2300110: saruc01
+    2300112: saruc_01
+    2300114: speedook01
+    2300116: steering_o01
+    2300118: steering_s01
+    2300120: stop01
+    2300122: stop_boot01
+    2300124: tahook01
+    2300126: wheel02
+    2300128: wheel03
+    2300130: wheel04
+    2300132: wheel05
+    3300000: "_\xE5\xE7\xE8\xED\xE001"
+    3300002: "_\xEE\xF0\xEE\xE3\xE801"
+    3300004: a_04
+    3300006: a_05
+    3300008: black02
+    3300010: black_01
+    3300012: black_999_01
+    3300014: black_sp01
+    3300016: black_spec01
+    3300018: black_tran01
+    3300020: bonnet01
+    3300022: boomper01
+    3300024: boot01
+    3300026: chassis01
+    3300028: Chrom_moto01
+    3300030: chrome01
+    3300032: dno01
+    3300034: door_lf01
+    3300036: door_lr01
+    3300038: door_rf01
+    3300040: door_rr01
+    3300042: dvorleft01
+    3300044: dvorright01
+    3300046: fara_F01
+    3300048: fara_J_F01
+    3300050: fara_J_R01
+    3300052: fara_R02
+    3300054: glass01
+    3300056: glass02
+    3300058: glass03
+    3300060: glass_boot01
+    3300062: glass_F_M_01
+    3300064: glass_fara01
+    3300066: hub_lf01
+    3300068: hub_lr01
+    3300070: hub_rf01
+    3300072: hub_rr01
+    3300074: indicato01
+    3300076: indicato02
+    3300078: indicato03
+    3300080: indicato04
+    3300082: indicator_01
+    3300084: interer01
+    3300086: ligits_pet01
+    3300088: ligits_rte01
+    3300090: ligits_spe01
+    3300092: ligits_tah01
+    3300094: metal_moto01
+    3300096: petrolok01
+    3300098: plasstic01
+    3300100: plasstic_f01
+    3300102: Plasstic_s01
+    3300104: plastic01
+    3300106: revers01
+    3300108: rtemperatu01
+    3300110: saruc01
+    3300112: saruc_01
+    3300114: speedook01
+    3300116: steering_o01
+    3300118: steering_s01
+    3300120: stop01
+    3300122: stop_boot01
+    3300124: tahook01
+    3300126: wheel02
+    3300128: wheel03
+    3300130: wheel04
+    3300132: wheel05
+    4300000: hub_lf01
+    4300002: hub_lr01
+    4300004: hub_rf01
+    4300006: hub_rr01
+    4300008: bonnet01
+    4300010: dvorleft01
+    4300012: dvorright01
+    4300014: door_rr01
+    4300016: door_lr01
+    4300018: door_lf01
+    4300020: glass01
+    4300022: indicator_01
+    4300024: door_rf01
+    4300026: glass02
+    4300028: indicato01
+    4300030: boot01
+    4300032: glass_boot01
+    4300034: stop_boot01
+    4300036: "_\xEE\xF0\xEE\xE3\xE801"
+    4300038: black_01
+    4300040: black_spec01
+    4300042: black_tran01
+    4300044: boomper01
+    4300046: chassis01
+    4300048: chrome01
+    4300050: dno01
+    4300052: glass_F_M_01
+    4300054: steering_o01
+    4300056: steering_s01
+    4300058: Chrom_moto01
+    4300060: Plasstic_s01
+    4300062: black_999_01
+    4300064: black_sp01
+    4300066: metal_moto01
+    4300068: a_04
+    4300070: a_05
+    4300072: "_\xE5\xE7\xE8\xED\xE001"
+    4300074: black02
+    4300076: interer01
+    4300078: plasstic01
+    4300080: saruc01
+    4300082: ligits_tah01
+    4300084: tahook01
+    4300086: ligits_rte01
+    4300088: rtemperatu01
+    4300090: ligits_spe01
+    4300092: speedook01
+    4300094: ligits_pet01
+    4300096: petrolok01
+    4300098: fara_F01
+    4300100: fara_J_F01
+    4300102: glass03
+    4300104: indicato02
+    4300106: plastic01
+    4300108: saruc_01
+    4300110: fara_J_R01
+    4300112: fara_R02
+    4300114: glass_fara01
+    4300116: indicato03
+    4300118: indicato04
+    4300120: plasstic_f01
+    4300122: revers01
+    4300124: stop01
+    4300126: wheel03
+    4300128: wheel02
+    4300130: wheel05
+    4300132: wheel04
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
