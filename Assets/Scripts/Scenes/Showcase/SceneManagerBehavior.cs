@@ -10,7 +10,7 @@ namespace CAVS.Scenes.Showcase
     /// <summary>
     /// Meant managing the entire carshowcase scene.
     /// </summary>
-    public class SceneManagerBehavior : MonoBehaviour, ICarDatabaseSubscriber, IInteractibleButtonSubscriber
+    public class SceneManagerBehavior : MonoBehaviour, ICarDatabaseSubscriber
     {
 
         /// <summary>
@@ -41,8 +41,12 @@ namespace CAVS.Scenes.Showcase
 
 
         [SerializeField]
-        private InteratibleButtonBehavior[] buttons;
+        private InteratibleButtonBehavior nextButton;
 
+        [SerializeField]
+        private InteratibleButtonBehavior previousButton;
+
+        
       
         /// <summary>
         /// Images associated with the car we want to display. (Grabbed from the database)
@@ -78,13 +82,8 @@ namespace CAVS.Scenes.Showcase
 
         void Start()
         {
-            if (buttons != null)
-            {
-                foreach(InteratibleButtonBehavior button in buttons)
-                {
-                    button.Subscribe(this);
-                }
-            }
+            nextButton.Subscribe(this.DisplayNextCar);
+            previousButton.Subscribe(this.DisplayPreviousCar);
             if(carDatabase != null)
             {
                 carDatabase.Subscribe(this);
@@ -112,9 +111,6 @@ namespace CAVS.Scenes.Showcase
             }
         }
 
-		public void OnKeyPress(string keyName)
-		{
-		}
 
         /// <summary>
         /// Called whenever the Database has car information for us

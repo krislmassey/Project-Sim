@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using System;
 
 namespace CAVS.Scenes.Showcase
 {
@@ -8,10 +9,7 @@ namespace CAVS.Scenes.Showcase
     public class InteratibleButtonBehavior : MonoBehaviour
     {
 
-        private List<IInteractibleButtonSubscriber> subscribers;
-
-        [SerializeField]
-        private string buttonName;
+        private List<Action> subscribers;
 
         [SerializeField]
         [Range(0.1f, 5f)]
@@ -26,13 +24,13 @@ namespace CAVS.Scenes.Showcase
         [SerializeField]
         private GameObject proximityPiece;
 
-        public void Subscribe(IInteractibleButtonSubscriber sub)
+        public void Subscribe(Action sub)
         {
             if(sub != null)
             {
                 if (subscribers == null)
                 {
-                    subscribers = new List<IInteractibleButtonSubscriber>();
+                    subscribers = new List<Action>();
                 }
                 subscribers.Add(sub);
             }
@@ -46,11 +44,11 @@ namespace CAVS.Scenes.Showcase
             buttonPiece.transform.Translate(Vector3.up / 15f);
             if (subscribers != null)
             {
-                foreach(IInteractibleButtonSubscriber sub in subscribers)
+                foreach(Action sub in subscribers)
                 {
                     if(sub != null)
                     {
-                        sub.OnButtonPress(buttonName);
+                        sub();
                     }
                 }
             }
