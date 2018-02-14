@@ -3,17 +3,18 @@ using System.Collections.Generic;
 using UnityEngine;
 
 namespace CAVS.Scenes.Showcase {
-	public class NewBehaviourScript : MonoBehaviour {
-		// Update is called once per frame
-		public static void Update() {
+	public class KeyboardInput: MonoBehaviour {
+		
+        public void Update() {
 			if (Input.GetKeyDown (KeyCode.RightArrow)) {
 				//call from that script
-				//GameObject.GetComponent<SceneManagerBehavior>().OnButtonPress("Next");
+				gameObject.GetComponent<SceneManagerBehavior>().OnButtonPress("Next");
 			}
 			if (Input.GetKeyDown (KeyCode.LeftArrow)) {
 				//call from that script
-				//GameObject.GetComponent<SceneManagerBehavior>().OnButtonPress("Previous");
+				gameObject.GetComponent<SceneManagerBehavior>().OnButtonPress("Previous");
 			}
 		}
+
 	}
 }

@@ -70,6 +70,12 @@ namespace CAVS.Scenes.Showcase
         private CarQuality qualityToRender;
 
 
+        /// <summary>
+        /// The lift model that will make it look like the car is being raised
+        /// </summary>
+        [SerializeField]
+        private GameObject liftCarPlacement;
+
         void Start()
         {
             if (buttons != null)
@@ -206,8 +212,11 @@ namespace CAVS.Scenes.Showcase
             currentCarGameObject = Instantiate<GameObject>(
                 LoadCarModelReference(carToDisplay, qualityToRender), 
 				Vector3.zero, 
-                Quaternion.identity
+                Quaternion.identity,
+                liftCarPlacement.transform
             );
+
+            currentCarGameObject.transform.localPosition = Vector3.zero;
 
         }
 
