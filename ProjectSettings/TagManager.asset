@@ -6,6 +6,9 @@ TagManager:
   tags:
   - UIPanel
   - UIButton
+  - projectile
+  - FxTemporaire
+  - MiniCar
   layers:
   - Default
   - TransparentFX
