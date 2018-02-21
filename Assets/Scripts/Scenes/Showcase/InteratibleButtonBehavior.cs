@@ -37,7 +37,7 @@ namespace CAVS.Scenes.Showcase
         }
 
 
-        void OnCollisionEnter(Collision collision)
+        void OnTriggerEnter(Collider other)
         {
             proximityPiece.GetComponent<MeshRenderer>().material.color = Color.green;
             GetComponent<BoxCollider>().size = new Vector3(0.6f, 3f, 0.6f);
@@ -54,7 +54,7 @@ namespace CAVS.Scenes.Showcase
             }
         }
 
-        void OnCollisionExit(Collision collision)
+        void OnTriggerExit(Collider other)
         {
             GetComponent<BoxCollider>().size = new Vector3(0.6f, 2f, 0.6f);
             buttonPiece.transform.Translate(Vector3.down / 15f);
